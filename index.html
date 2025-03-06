@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span style="color:#AC1754;">Nina Tolentino</span></h1>
+            <p>A clumsy developer finding passion in creating new ideas, <br>
+                user-friendly developments, and practical innovations...char</p>
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-alt">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="bunny.jpg" alt="My Profile Picture">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="not_available.jpg" alt="Project 1">
+                <h3>Project One</h3>
+                <p>Description of project one.</p>
+            </div>
+            <div class="project-card">
+                <img src="not_available.jpg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>Description of project two.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What People Say</h2>
+        <div class="testimonial">
+            <img src="user 1.jpg" alt="User 1" class="testimonial-img">
+            <p>"This portfolio is truly amazing! Very professional work."</p>
+            <h4>- John Doe</h4>
+        </div>
+        
+        <div class="testimonial">
+            <img src="user 2.jpg" alt="User 2" class="testimonial-img">
+            <p>"I loved the design and creativity put into this. Great job!"</p>
+            <h4>- Jane Smith</h4>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
